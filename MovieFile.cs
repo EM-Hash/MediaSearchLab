@@ -98,5 +98,10 @@ namespace MediaLibrary{
         public void addMovie(Movie movie){
             movies.Add(movie);
         }
+
+        //Return the last movie in the file's ID
+        public UInt64 lastID(){
+            return movies.Last<Movie>.mediaID;
+        }
     }
 }
