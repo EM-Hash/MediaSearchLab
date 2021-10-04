@@ -90,7 +90,13 @@ namespace MediaLibrary{
         }
 
         //Return list of movies (so that they can be printed out)
+        public List<Movie> GetMovies(){
+            return movies;
+        }
 
         //Add to list of movies
+        public void addMovie(Movie movie){
+            movies.Add(movie);
+        }
     }
 }
