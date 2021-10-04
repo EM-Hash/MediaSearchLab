@@ -11,7 +11,6 @@ namespace MediaLibrary
         //Method to add a movie to the MovieFile and the moviesscrubbed file
         public void addMovie(string file, MovieFile movieFile){
             //Generate an ID
-
             //Ask for, and save, the...
             //Title
             //Genre(s)
@@ -26,12 +25,18 @@ namespace MediaLibrary
 
             //Add the movie to the MovieFile list
         }
+
         //Method to display all the movies in the MovieFile
         public void displayMovies(MovieFile movieFile){
             //Get the list of movies from movie file
+            List<Movie> movies = movieFile.GetMovies();
             //For each value in the list...
-            //Print the movie
+            foreach (Movie m in movies){
+                //Print the movie
+                Console.WriteLine(m.Display());
+            }
         }
+
         static void Main(string[] args)
         {
             logger.Info("Program started");
