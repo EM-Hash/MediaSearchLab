@@ -48,7 +48,8 @@ namespace MediaLibrary
 
             string scrubbedFile = FileScrubber.ScrubMovies("movies.csv");
             logger.Info(scrubbedFile);
-
+            //Create movie file
+            MovieFile tempFile = new MovieFile(scrubbedFile, logger);
             logger.Info("Program ended");
         }
     }
