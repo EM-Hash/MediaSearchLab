@@ -37,3 +37,112 @@
 2021-10-04 09:50:00.9909|INFO|MediaLibrary.Program|Stream end
 2021-10-04 09:50:00.9909|INFO|MediaLibrary.Program|MovieFile constructed
 2021-10-04 09:50:00.9909|INFO|MediaLibrary.Program|Program ended
+2021-10-04 11:15:48.4069|INFO|MediaLibrary.Program|Program started
+2021-10-04 11:15:48.4256|INFO|MediaLibrary.Program|Movie File Constructing...
+2021-10-04 11:15:48.4256|INFO|MediaLibrary.Program|File movies.scrubbed.csv opened
+2021-10-04 11:15:48.4256|INFO|MediaLibrary.Program|Stream start
+2021-10-04 11:15:48.4607|INFO|MediaLibrary.Program|Stream end
+2021-10-04 11:15:48.4607|INFO|MediaLibrary.Program|MovieFile constructed
+2021-10-04 11:17:51.2029|INFO|MediaLibrary.Program|Program started
+2021-10-04 11:17:51.2244|INFO|MediaLibrary.Program|Movie File Constructing...
+2021-10-04 11:17:51.2244|INFO|MediaLibrary.Program|File movies.scrubbed.csv opened
+2021-10-04 11:17:51.2253|INFO|MediaLibrary.Program|Stream start
+2021-10-04 11:17:51.2482|INFO|MediaLibrary.Program|Stream end
+2021-10-04 11:17:51.2482|INFO|MediaLibrary.Program|MovieFile constructed
+2021-10-04 11:18:12.7025|INFO|MediaLibrary.Program|Program ended
+2021-10-04 11:18:17.2504|INFO|MediaLibrary.Program|Program started
+2021-10-04 11:18:17.2701|INFO|MediaLibrary.Program|Movie File Constructing...
+2021-10-04 11:18:17.2701|INFO|MediaLibrary.Program|File movies.scrubbed.csv opened
+2021-10-04 11:18:17.2701|INFO|MediaLibrary.Program|Stream start
+2021-10-04 11:18:17.2970|INFO|MediaLibrary.Program|Stream end
+2021-10-04 11:18:17.2970|INFO|MediaLibrary.Program|MovieFile constructed
+2021-10-04 11:18:28.2126|INFO|MediaLibrary.Program|Program started
+2021-10-04 11:18:28.2345|INFO|MediaLibrary.Program|Movie File Constructing...
+2021-10-04 11:18:28.2345|INFO|MediaLibrary.Program|File movies.scrubbed.csv opened
+2021-10-04 11:18:28.2345|INFO|MediaLibrary.Program|Stream start
+2021-10-04 11:18:28.2590|INFO|MediaLibrary.Program|Stream end
+2021-10-04 11:18:28.2590|INFO|MediaLibrary.Program|MovieFile constructed
+2021-10-04 11:20:58.7119|INFO|MediaLibrary.Program|Program ended
+2021-10-04 11:21:03.0672|INFO|MediaLibrary.Program|Program started
+2021-10-04 11:21:03.0863|INFO|MediaLibrary.Program|Movie File Constructing...
+2021-10-04 11:21:03.0863|INFO|MediaLibrary.Program|File movies.scrubbed.csv opened
+2021-10-04 11:21:03.0863|INFO|MediaLibrary.Program|Stream start
+2021-10-04 11:21:03.1110|INFO|MediaLibrary.Program|Stream end
+2021-10-04 11:21:03.1110|INFO|MediaLibrary.Program|MovieFile constructed
+2021-10-04 11:21:05.0153|INFO|MediaLibrary.Program|Program ended
+2021-10-04 11:21:15.1991|INFO|MediaLibrary.Program|Program started
+2021-10-04 11:21:15.2217|INFO|MediaLibrary.Program|Movie File Constructing...
+2021-10-04 11:21:15.2217|INFO|MediaLibrary.Program|File movies.scrubbed.csv opened
+2021-10-04 11:21:15.2217|INFO|MediaLibrary.Program|Stream start
+2021-10-04 11:22:06.3365|INFO|MediaLibrary.Program|Program started
+2021-10-04 11:22:06.3634|INFO|MediaLibrary.Program|Movie File Constructing...
+2021-10-04 11:22:06.3634|INFO|MediaLibrary.Program|File movies.scrubbed.csv opened
+2021-10-04 11:22:06.3634|INFO|MediaLibrary.Program|Stream start
+2021-10-04 11:22:17.6106|INFO|MediaLibrary.Program|Program started
+2021-10-04 11:22:17.6306|INFO|MediaLibrary.Program|Movie File Constructing...
+2021-10-04 11:22:17.6306|INFO|MediaLibrary.Program|File movies.scrubbed.csv opened
+2021-10-04 11:22:17.6306|INFO|MediaLibrary.Program|Stream start
+2021-10-04 11:22:56.9210|INFO|MediaLibrary.Program|Program started
+2021-10-04 11:22:56.9397|INFO|MediaLibrary.Program|Movie File Constructing...
+2021-10-04 11:22:56.9397|INFO|MediaLibrary.Program|File movies.scrubbed.csv opened
+2021-10-04 11:22:56.9397|INFO|MediaLibrary.Program|Stream start
+2021-10-04 11:23:03.3041|INFO|MediaLibrary.Program|Stream end
+2021-10-04 11:23:03.3041|INFO|MediaLibrary.Program|MovieFile constructed
+2021-10-04 11:23:44.9770|INFO|MediaLibrary.Program|Program started
+2021-10-04 11:23:44.9968|INFO|MediaLibrary.Program|Movie File Constructing...
+2021-10-04 11:23:44.9968|INFO|MediaLibrary.Program|File movies.scrubbed.csv opened
+2021-10-04 11:23:44.9968|INFO|MediaLibrary.Program|Stream start
+2021-10-04 11:23:51.5460|INFO|MediaLibrary.Program|Stream end
+2021-10-04 11:23:51.5460|INFO|MediaLibrary.Program|MovieFile constructed
+2021-10-04 11:24:29.9183|INFO|MediaLibrary.Program|Program started
+2021-10-04 11:24:29.9405|INFO|MediaLibrary.Program|Movie File Constructing...
+2021-10-04 11:24:29.9405|INFO|MediaLibrary.Program|File movies.scrubbed.csv opened
+2021-10-04 11:24:29.9443|INFO|MediaLibrary.Program|Stream start
+2021-10-04 11:24:36.6202|INFO|MediaLibrary.Program|Stream end
+2021-10-04 11:24:36.6202|INFO|MediaLibrary.Program|MovieFile constructed
+2021-10-04 11:24:57.2040|INFO|MediaLibrary.Program|Program started
+2021-10-04 11:24:57.2235|INFO|MediaLibrary.Program|Movie File Constructing...
+2021-10-04 11:24:57.2235|INFO|MediaLibrary.Program|File movies.scrubbed.csv opened
+2021-10-04 11:24:57.2235|INFO|MediaLibrary.Program|Stream start
+2021-10-04 11:25:03.5848|INFO|MediaLibrary.Program|Stream end
+2021-10-04 11:25:03.5848|INFO|MediaLibrary.Program|MovieFile constructed
+2021-10-04 11:25:55.6236|INFO|MediaLibrary.Program|Program started
+2021-10-04 11:25:55.6426|INFO|MediaLibrary.Program|Movie File Constructing...
+2021-10-04 11:25:55.6426|INFO|MediaLibrary.Program|File movies.scrubbed.csv opened
+2021-10-04 11:25:55.6426|INFO|MediaLibrary.Program|Stream start
+2021-10-04 11:26:17.0345|INFO|MediaLibrary.Program|Program started
+2021-10-04 11:26:17.0539|INFO|MediaLibrary.Program|Movie File Constructing...
+2021-10-04 11:26:17.0539|INFO|MediaLibrary.Program|File movies.scrubbed.csv opened
+2021-10-04 11:26:17.0539|INFO|MediaLibrary.Program|Stream start
+2021-10-04 11:26:40.0632|INFO|MediaLibrary.Program|Program started
+2021-10-04 11:26:40.0839|INFO|MediaLibrary.Program|Movie File Constructing...
+2021-10-04 11:26:40.0862|INFO|MediaLibrary.Program|File movies.scrubbed.csv opened
+2021-10-04 11:26:40.0862|INFO|MediaLibrary.Program|Stream start
+2021-10-04 11:28:38.3119|INFO|MediaLibrary.Program|Program started
+2021-10-04 11:28:38.3341|INFO|MediaLibrary.Program|Movie File Constructing...
+2021-10-04 11:28:38.3341|INFO|MediaLibrary.Program|File movies.scrubbed.csv opened
+2021-10-04 11:28:38.3341|INFO|MediaLibrary.Program|Stream start
+2021-10-04 11:28:38.3635|INFO|MediaLibrary.Program|Stream end
+2021-10-04 11:28:38.3635|INFO|MediaLibrary.Program|MovieFile constructed
+2021-10-04 11:30:19.4989|INFO|MediaLibrary.Program|Program ended
+2021-10-04 11:30:22.4124|INFO|MediaLibrary.Program|Program started
+2021-10-04 11:30:22.4305|INFO|MediaLibrary.Program|Movie File Constructing...
+2021-10-04 11:30:22.4305|INFO|MediaLibrary.Program|File movies.scrubbed.csv opened
+2021-10-04 11:30:22.4305|INFO|MediaLibrary.Program|Stream start
+2021-10-04 11:30:22.4668|INFO|MediaLibrary.Program|Stream end
+2021-10-04 11:30:22.4668|INFO|MediaLibrary.Program|MovieFile constructed
+2021-10-04 11:32:26.1828|INFO|MediaLibrary.Program|Program ended
+2021-10-04 11:32:29.3200|INFO|MediaLibrary.Program|Program started
+2021-10-04 11:32:29.3395|INFO|MediaLibrary.Program|Movie File Constructing...
+2021-10-04 11:32:29.3395|INFO|MediaLibrary.Program|File movies.scrubbed.csv opened
+2021-10-04 11:32:29.3395|INFO|MediaLibrary.Program|Stream start
+2021-10-04 11:32:29.3611|INFO|MediaLibrary.Program|Stream end
+2021-10-04 11:32:29.3611|INFO|MediaLibrary.Program|MovieFile constructed
+2021-10-04 11:33:43.3299|INFO|MediaLibrary.Program|Program ended
+2021-10-04 11:33:47.6292|INFO|MediaLibrary.Program|Program started
+2021-10-04 11:33:47.6502|INFO|MediaLibrary.Program|Movie File Constructing...
+2021-10-04 11:33:47.6502|INFO|MediaLibrary.Program|File movies.scrubbed.csv opened
+2021-10-04 11:33:47.6502|INFO|MediaLibrary.Program|Stream start
+2021-10-04 11:33:47.6747|INFO|MediaLibrary.Program|Stream end
+2021-10-04 11:33:47.6747|INFO|MediaLibrary.Program|MovieFile constructed
+2021-10-04 11:34:06.0832|INFO|MediaLibrary.Program|Program ended

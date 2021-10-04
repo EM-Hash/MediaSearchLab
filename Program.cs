@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using NLog.Web;
 using System.IO;
 
@@ -9,25 +10,58 @@ namespace MediaLibrary
         // create static instance of Logger
         private static NLog.Logger logger = NLogBuilder.ConfigureNLog(Directory.GetCurrentDirectory() + "\\nlog.config").GetCurrentClassLogger();
         //Method to add a movie to the MovieFile and the moviesscrubbed file
-        public void addMovie(string file, MovieFile movieFile){
+        public static void addMovie(string file, MovieFile movieFile){
             //Generate an ID
+            UInt64 id = movieFile.lastID() + 1;
             //Ask for, and save, the...
             //Title
+            string tempTitle = getValue("title");
             //Genre(s)
+            List<string> tempGenres = new List<string>();
+            //While the user is still entering genres...
+            Boolean genCont = true;
+            do{
+                //Prompt/save the value
+                tempGenres.Add(getValue("next genre"));
+                //Ask if the user wants to continue
+                Console.WriteLine("Add another genre? [Y/N]: ");
+                string ans = Console.ReadLine().ToLower();
+                //If so, continue; if not, break out
+                if (ans == "y"){
+                    continue;
+                } else {
+                    genCont = false;
+                }
+            } while (genCont);
             //Director
+            string tempDir = getValue("director");
             //Running Time
-
+            TimeSpan duration = TimeSpan.Parse(getValue("duration [hh:mm:ss]"));
             //Open the streamwriter (APPEND)
+            StreamWriter sw = new StreamWriter(file, true);
             //Write the values to the filescrubber file
+            //If there's a comma or quotation mark in the title...
+            if (tempTitle.Contains('"') || tempTitle.Contains(",")){
+                //Alter the title to be encircled in quotation marks
+                tempTitle = "\"" + tempTitle + "\"";
+            }
+            sw.WriteLine($"{id},{tempTitle},{string.Join("|",tempGenres.ToArray())},{tempDir},{duration}");
             //Close the streamwriter
-
+            sw.Close();
             //Create a new movie
-
+            Movie movie = new Movie{
+                mediaId = id,
+                title = tempTitle,
+                genres = tempGenres,
+                director = tempDir,
+                runningTime = duration,
+            };
             //Add the movie to the MovieFile list
+            movieFile.addMovie(movie);
         }
 
         //Method to display all the movies in the MovieFile
-        public void displayMovies(MovieFile movieFile){
+        public static void displayMovies(MovieFile movieFile){
             //Get the list of movies from movie file
             List<Movie> movies = movieFile.GetMovies();
             //For each value in the list...
@@ -35,6 +69,12 @@ namespace MediaLibrary
                 //Print the movie
                 Console.WriteLine(m.Display());
             }
+        }
+
+        //Method to get and return a string value
+        public static string getValue(string valueName){
+            Console.WriteLine($"Please enter the {valueName}: ");
+            return Console.ReadLine();
         }
 
         static void Main(string[] args)
@@ -49,7 +89,7 @@ namespace MediaLibrary
             string file = "movies.scrubbed.csv";
 
             //Create movie file
-            MovieFile movieFile = new MovieFile(scrubbedFile, logger);
+            MovieFile movieFile = new MovieFile(file, logger);
 
             //Bool to determine if user is done or not
             bool cont = true;
@@ -76,6 +116,7 @@ namespace MediaLibrary
                         break;
                     default:
                         //Else, quit program
+                        cont = false;
                         break;
                 }
             } while (cont);
