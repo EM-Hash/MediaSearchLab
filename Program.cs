@@ -36,7 +36,10 @@ namespace MediaLibrary
             //Director
             string tempDir = getValue("director");
             //Running Time
-            TimeSpan duration = TimeSpan.Parse(getValue("duration [hh:mm:ss]"));
+            TimeSpan duration;
+            while(!TimeSpan.TryParse(getValue("duration [hh:mm:ss]"),out duration)){
+                Console.WriteLine("That is not a valid time value.");
+            }
             //Open the streamwriter (APPEND)
             StreamWriter sw = new StreamWriter(file, true);
             //Write the values to the filescrubber file
