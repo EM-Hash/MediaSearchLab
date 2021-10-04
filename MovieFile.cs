@@ -39,13 +39,13 @@ namespace MediaLibrary{
                 //If there's a quotation mark in the line...
                 if (index != -1){
                     //First, separate the ID
-                    UInt64 id = UInt64.Parse(line.Substring(0,index-2));
+                    UInt64 id = UInt64.Parse(line.Substring(0,index-1));
                     //Cut the line off at the index (to remove the id and quotation mark)
                     line = line.Substring(index + 1);
                     //Find the index of the last quotation mark 
                     index = line.LastIndexOf('"');
                     //The title goes from the beginning of the line to the spot before the last quotation mark
-                    string tempTitle = line.Substring(0,index - 1);
+                    string tempTitle = line.Substring(0,index);
                     //Cut the line off right 1 space after the last quotation mark (to get rid of the comma)
                     line = line.Substring(index + 2);
                     //Split the line based on commas -- there are three more sections
@@ -101,7 +101,7 @@ namespace MediaLibrary{
 
         //Return the last movie in the file's ID
         public UInt64 lastID(){
-            return movies.Last<Movie>.mediaID;
+            return movies.Last<Movie>().mediaId;
         }
     }
 }
