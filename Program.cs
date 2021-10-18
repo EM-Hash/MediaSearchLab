@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using NLog.Web;
 using System.IO;
+using System.Linq;
 
 namespace MediaLibrary
 {
@@ -80,6 +81,29 @@ namespace MediaLibrary
             return Console.ReadLine();
         }
 
+        //Method to search for a given movie
+        public static void searchMovies(MovieFile movieFile){
+            //The list of movies to search
+            List<Movie> movies = movieFile.GetMovies();
+            //First, prompt the user for the search value
+            Console.WriteLine("Please enter the movie title:");
+            //Save the search value
+            string search = Console.ReadLine();
+            Console.WriteLine("Searching...");
+            //If there's any movie that has the given value in the title...
+            if (movies.Any(m => m.title.ToLower().Contains(search.ToLower()))){
+                //Print all the values that contain the search value
+                Console.WriteLine("Search Results:");
+                var searchMovies = movies.Where(m => m.title.ToLower().Contains(search.ToLower()));
+                foreach (Movie m in searchMovies){
+                    Console.WriteLine(m.title);
+                }
+            } else {
+                //If there are no movies with the given search value, say so and end
+                Console.WriteLine("There are no matching results.");
+            }
+        }
+
         static void Main(string[] args)
         {
             logger.Info("Program started");
@@ -122,6 +146,8 @@ namespace MediaLibrary
                         break;
                     case "3":
                         //If 3, go to Search movies method
+                        searchMovies(movieFile);
+                        break;
                     default:
                         //Else, quit program
                         cont = false;

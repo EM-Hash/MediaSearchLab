@@ -174,3 +174,38 @@
 2021-10-18 08:41:56.2863|INFO|MediaLibrary.Program|Stream end
 2021-10-18 08:41:56.2863|INFO|MediaLibrary.Program|MovieFile constructed
 2021-10-18 08:42:00.0349|INFO|MediaLibrary.Program|Program ended
+2021-10-18 08:52:25.7573|INFO|MediaLibrary.Program|Program started
+2021-10-18 08:52:25.7806|INFO|MediaLibrary.Program|Movie File Constructing...
+2021-10-18 08:52:25.7822|INFO|MediaLibrary.Program|File movies.scrubbed.csv opened
+2021-10-18 08:52:25.7822|INFO|MediaLibrary.Program|Stream start
+2021-10-18 08:52:25.8087|INFO|MediaLibrary.Program|Stream end
+2021-10-18 08:52:25.8087|INFO|MediaLibrary.Program|MovieFile constructed
+2021-10-18 08:52:28.9835|INFO|MediaLibrary.Program|Program ended
+2021-10-18 08:53:00.5681|INFO|MediaLibrary.Program|Program started
+2021-10-18 08:53:00.5916|INFO|MediaLibrary.Program|Movie File Constructing...
+2021-10-18 08:53:00.5916|INFO|MediaLibrary.Program|File movies.scrubbed.csv opened
+2021-10-18 08:53:00.5916|INFO|MediaLibrary.Program|Stream start
+2021-10-18 08:53:00.6200|INFO|MediaLibrary.Program|Stream end
+2021-10-18 08:53:00.6200|INFO|MediaLibrary.Program|MovieFile constructed
+2021-10-18 08:53:27.5115|INFO|MediaLibrary.Program|Program ended
+2021-10-18 08:54:27.1197|INFO|MediaLibrary.Program|Program started
+2021-10-18 08:54:27.1410|INFO|MediaLibrary.Program|Movie File Constructing...
+2021-10-18 08:54:27.1423|INFO|MediaLibrary.Program|File movies.scrubbed.csv opened
+2021-10-18 08:54:27.1423|INFO|MediaLibrary.Program|Stream start
+2021-10-18 08:54:27.1685|INFO|MediaLibrary.Program|Stream end
+2021-10-18 08:54:27.1685|INFO|MediaLibrary.Program|MovieFile constructed
+2021-10-18 08:55:07.8645|INFO|MediaLibrary.Program|Program ended
+2021-10-18 08:55:11.2231|INFO|MediaLibrary.Program|Program started
+2021-10-18 08:55:11.2458|INFO|MediaLibrary.Program|Movie File Constructing...
+2021-10-18 08:55:11.2458|INFO|MediaLibrary.Program|File movies.scrubbed.csv opened
+2021-10-18 08:55:11.2458|INFO|MediaLibrary.Program|Stream start
+2021-10-18 08:55:11.2767|INFO|MediaLibrary.Program|Stream end
+2021-10-18 08:55:11.2767|INFO|MediaLibrary.Program|MovieFile constructed
+2021-10-18 08:55:32.7608|INFO|MediaLibrary.Program|Program ended
+2021-10-18 08:55:35.7172|INFO|MediaLibrary.Program|Program started
+2021-10-18 08:55:35.7398|INFO|MediaLibrary.Program|Movie File Constructing...
+2021-10-18 08:55:35.7398|INFO|MediaLibrary.Program|File movies.scrubbed.csv opened
+2021-10-18 08:55:35.7398|INFO|MediaLibrary.Program|Stream start
+2021-10-18 08:55:35.7661|INFO|MediaLibrary.Program|Stream end
+2021-10-18 08:55:35.7674|INFO|MediaLibrary.Program|MovieFile constructed
+2021-10-18 08:55:45.3206|INFO|MediaLibrary.Program|Program ended
