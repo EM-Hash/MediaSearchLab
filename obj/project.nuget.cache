@@ -1,19 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "y8E2RwmgmZ8+WTjBw379TbnxzFMoO6+3Aj5QRyshOtx5YrFIPCjgtrmcOvM8jVTMFnivuGavBp5jB5Xv2NBv1w==",
+  "dgSpecHash": "MgzhuNxN/lJKPJ0E4hxZXKHv5w+q68vKBt/MzjfJR/xpNFEW+z8IAXLOCugVgXUo3ml8hAy1dhuoec/wcl2r6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\addde\\source\\repos\\WCTC Projects\\MediaLibLab\\MediaLibrary.csproj",
+  "projectFilePath": "C:\\Users\\bitstudent\\source\\repos\\MediaSearchLab\\MediaLibrary.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\addde\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
-    "C:\\Users\\addde\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
-    "C:\\Users\\addde\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
-    "C:\\Users\\addde\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
-    "C:\\Users\\addde\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
-    "C:\\Users\\addde\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
-    "C:\\Users\\addde\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
-    "C:\\Users\\addde\\.nuget\\packages\\nlog\\4.7.11\\nlog.4.7.11.nupkg.sha512",
-    "C:\\Users\\addde\\.nuget\\packages\\nlog.extensions.logging\\1.7.4\\nlog.extensions.logging.1.7.4.nupkg.sha512",
-    "C:\\Users\\addde\\.nuget\\packages\\nlog.web.aspnetcore\\4.14.0\\nlog.web.aspnetcore.4.14.0.nupkg.sha512"
+    "C:\\Users\\bitstudent\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\bitstudent\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "C:\\Users\\bitstudent\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\bitstudent\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "C:\\Users\\bitstudent\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\bitstudent\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\bitstudent\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\bitstudent\\.nuget\\packages\\nlog\\4.7.11\\nlog.4.7.11.nupkg.sha512",
+    "C:\\Users\\bitstudent\\.nuget\\packages\\nlog.extensions.logging\\1.7.4\\nlog.extensions.logging.1.7.4.nupkg.sha512",
+    "C:\\Users\\bitstudent\\.nuget\\packages\\nlog.web.aspnetcore\\4.14.0\\nlog.web.aspnetcore.4.14.0.nupkg.sha512"
   ],
   "logs": []
 }

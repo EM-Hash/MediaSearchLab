@@ -100,12 +100,15 @@ namespace MediaLibrary
             //Until the user is done...
             do{
                 //Display the menu
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Welcome to the Movie Library!");
                 Console.WriteLine("Would you like to...");
                 Console.WriteLine("[1] Add Movie");
                 Console.WriteLine("[2] View all Movies");
-                Console.WriteLine("[3] Quit");
+                Console.WriteLine("[3] Search Movie");
+                Console.WriteLine("[4] Quit");
                 //Save the user's answer
+                Console.ForegroundColor = ConsoleColor.White;
                 string ans = Console.ReadLine();
                 //Go to switch statement
                 switch(ans){
@@ -117,6 +120,8 @@ namespace MediaLibrary
                         //If 2, go to Display all movies method
                         displayMovies(movieFile);
                         break;
+                    case "3":
+                        //If 3, go to Search movies method
                     default:
                         //Else, quit program
                         cont = false;
