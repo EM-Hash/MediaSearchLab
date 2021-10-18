@@ -92,8 +92,10 @@ namespace MediaLibrary
             Console.WriteLine("Searching...");
             //If there's any movie that has the given value in the title...
             if (movies.Any(m => m.title.ToLower().Contains(search.ToLower()))){
+                //Num of matching movies
+                int count = movies.Where(m => m.title.ToLower().Contains(search.ToLower())).Count();
                 //Print all the values that contain the search value
-                Console.WriteLine("Search Results:");
+                Console.WriteLine($"There are {count} results: ");
                 var searchMovies = movies.Where(m => m.title.ToLower().Contains(search.ToLower()));
                 foreach (Movie m in searchMovies){
                     Console.WriteLine(m.title);

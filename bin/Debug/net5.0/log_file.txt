@@ -209,3 +209,17 @@
 2021-10-18 08:55:35.7661|INFO|MediaLibrary.Program|Stream end
 2021-10-18 08:55:35.7674|INFO|MediaLibrary.Program|MovieFile constructed
 2021-10-18 08:55:45.3206|INFO|MediaLibrary.Program|Program ended
+2021-10-18 08:58:05.1684|INFO|MediaLibrary.Program|Program started
+2021-10-18 08:58:05.1950|INFO|MediaLibrary.Program|Movie File Constructing...
+2021-10-18 08:58:05.1950|INFO|MediaLibrary.Program|File movies.scrubbed.csv opened
+2021-10-18 08:58:05.1950|INFO|MediaLibrary.Program|Stream start
+2021-10-18 08:58:05.2262|INFO|MediaLibrary.Program|Stream end
+2021-10-18 08:58:05.2262|INFO|MediaLibrary.Program|MovieFile constructed
+2021-10-18 08:58:58.2645|INFO|MediaLibrary.Program|Program ended
+2021-10-18 08:59:01.8005|INFO|MediaLibrary.Program|Program started
+2021-10-18 08:59:01.8278|INFO|MediaLibrary.Program|Movie File Constructing...
+2021-10-18 08:59:01.8278|INFO|MediaLibrary.Program|File movies.scrubbed.csv opened
+2021-10-18 08:59:01.8278|INFO|MediaLibrary.Program|Stream start
+2021-10-18 08:59:01.8603|INFO|MediaLibrary.Program|Stream end
+2021-10-18 08:59:01.8603|INFO|MediaLibrary.Program|MovieFile constructed
+2021-10-18 08:59:20.1044|INFO|MediaLibrary.Program|Program ended
